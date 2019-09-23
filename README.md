@@ -1,4 +1,6 @@
-# PW486 Tech Blog
+# 📝 DevBoard
+
+> PW486's Tech Blog :)
 
 ## Usage
 
