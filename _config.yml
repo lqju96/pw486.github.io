@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: DevBoard
 subtitle:
-description:
-keywords:
-author: John Doe
+description: 이것저것 만들다 보니 입시도 준비하고, 대학도 컴공으로 오고, 군대도 개발병으로 오고, 졸업도 다가온 (예비)개발자입니다.
+keywords: Developer, Software, BackEnd, DevOps, Apple
+author: PW486
 language: en
 timezone: Asia/Seoul
 
@@ -43,6 +43,9 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+symbols_count_time:
+  symbols: true
+  time: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -82,3 +85,532 @@ deploy:
   repo: https://github.com/PW486/pw486.github.io
   branch: master
 
+theme_config:
+  # ---------------------------------------------------------------
+  # Site Information Settings
+  # See: https://theme-next.org/docs/getting-started/
+  # ---------------------------------------------------------------
+
+  favicon:
+    small: /images/favicon/favicon-16x16.png
+    medium: /images/favicon/favicon-32x32.png
+    apple_touch_icon: /images/favicon/apple-touch-icon.png
+    safari_pinned_tab: /images/favicon/safari-pinned-tab.svg
+    android_manifest: /images/favicon/site.webmanifest
+    ms_browserconfig: /images/favicon/browserconfig.xml
+
+  # hexo-generator-feed required for rss support. Leave rss as blank to use site's feed link.
+  # Set rss to false to disable feed link. Set rss to specific value if you have burned your feed already.
+  rss:
+
+  footer:
+    # Specify the date when the site was setup. If not defined, current year will be used.
+    #since: 2015
+
+    # Icon between year and copyright info.
+    icon:
+      # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
+      # `heart` is recommended with animation in red (#ff0000).
+      name: code
+      # If you want to animate the icon, set it to true.
+      animated: true
+      # Change the color of icon, using Hex Code.
+      color: "#808080"
+
+    powered:
+      # Hexo link (Powered by Hexo).
+      enable: false
+      # Version info of Hexo after Hexo link (vX.X.X).
+      version: false
+
+    theme:
+      # Theme & scheme info link (Theme - NexT.scheme).
+      enable: false
+      # Version info of NexT after scheme info (vX.X.X).
+      version: false
+
+
+  # ---------------------------------------------------------------
+  # Menu Settings
+  # ---------------------------------------------------------------
+
+  # Usage: `Key: /link/ || icon`
+  # Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+  # Value before `||` delimiter is the target link.
+  # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, question icon will be loaded.
+  # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+  # External url should start with http:// or https://
+  menu:
+    home: / || home
+    about: /about/ || user
+    categories: /categories/ || th
+    tags: /tags/ || tags
+    archives: /archives/ || archive
+    sitemap: /sitemap.xml || sitemap
+    # schedule: /schedule/ || calendar
+    # commonweal: /404/ || heartbeat
+
+  # Enable / Disable menu icons / item badges.
+  menu_settings:
+    icons: true
+    badges: true
+
+
+  # ---------------------------------------------------------------
+  # Scheme Settings
+  # ---------------------------------------------------------------
+
+  # Schemes
+  # scheme: Muse
+  #scheme: Mist
+  #scheme: Pisces
+  scheme: Gemini
+
+
+  # ---------------------------------------------------------------
+  # Sidebar Settings
+  # See: https://theme-next.org/docs/theme-settings/sidebar
+  # ---------------------------------------------------------------
+
+  # Posts / Categories / Tags in sidebar.
+  site_state: true
+
+  # Social Links
+  # Usage: `Key: permalink || icon`
+  # Key is the link label showing to end users.
+  # Value before `||` delimiter is the target permalink.
+  # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
+  social:
+    E-Mail: mailto:ooqwe486@gmail.com || envelope
+    GitHub: https://github.com/PW486 || github
+    StackOverflow: https://stackoverflow.com/users/8895405/pw486 || stack-overflow
+    YouTube: https://www.youtube.com/channel/UCVcNzIBhkjL4NGsUgLy2Yxg/videos || youtube
+
+  social_icons:
+    enable: true
+    icons_only: true
+    transition: true
+
+  # Blog rolls
+  links_settings:
+    icon: link
+    title: Links
+    # Available values: block | inline
+    layout: block
+
+  links:
+    # Title: http://example.com
+
+  # Sidebar Avatar
+  avatar:
+    # You can also use other linking images.
+    url: /images/avatar.jpg
+    # If true, the avatar would be dispalyed in circle.
+    rounded: true
+    # If true, the avatar would be rotated with the cursor.
+    rotated: false
+
+  # Table Of Contents in the Sidebar
+  toc:
+    enable: true
+    # Automatically add list number to toc.
+    number: true
+    # If true, all words will placed on next lines if header width longer then sidebar width.
+    wrap: false
+    # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+    expand_all: false
+    # Maximum heading depth of generated toc. You can set it in one post through `toc_max_depth` in Front-matter.
+    max_depth: 6
+
+  sidebar:
+    # Sidebar Position.
+    position: left
+    #position: right
+
+    # Manual define the sidebar width. If commented, will be default for:
+    # Muse | Mist: 320
+    # Pisces | Gemini: 240
+    #width: 300
+
+    # Sidebar Display (only for Muse | Mist), available values:
+    #  - post    expand on posts automatically. Default.
+    #  - always  expand for all pages automatically.
+    #  - hide    expand only when click on the sidebar toggle icon.
+    #  - remove  totally remove sidebar including sidebar toggle.
+    display: post
+
+    # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+    offset: 12
+    # Enable sidebar on narrow view (only for Muse | Mist).
+    onmobile: false
+
+
+  # ---------------------------------------------------------------
+  # Post Settings
+  # See: https://theme-next.org/docs/theme-settings/posts
+  # ---------------------------------------------------------------
+
+  # Automatically scroll page to section which is under <!-- more --> mark.
+  scroll_to_more: true
+
+  # Automatically excerpt description in homepage as preamble text.
+  excerpt_description: true
+
+  # Read more button
+  # If true, the read more button would be displayed in excerpt section.
+  read_more_btn: true
+
+  # Post meta display settings
+  post_meta:
+    item_text: true
+    created_at: true
+    updated_at:
+      enable: true
+      another_day: true
+    categories: true
+
+  # Post wordcount display settings
+  # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+  symbols_count_time:
+    separated_meta: true
+    item_text_post: true
+    item_text_total: false
+    awl: 4
+    wpm: 275
+
+  # Use icon instead of the symbol # to indicate the tag at the bottom of the post
+  tag_icon: true
+
+
+  # ---------------------------------------------------------------
+  # Custom Page Settings
+  # See: https://theme-next.org/docs/theme-settings/custom-pages
+  # ---------------------------------------------------------------
+
+  # Enable "cheers" for archive page.
+  cheers: false
+
+  # TagCloud settings for tags page.
+  tagcloud:
+    # All values below are same as default, change them by yourself
+    min: 12 # Minimun font size in px
+    max: 30 # Maxium font size in px
+    start: "#ccc" # Start color (hex, rgba, hsla or color keywords)
+    end: "#111" # End color (hex, rgba, hsla or color keywords)
+    amount: 200 # Amount of tags, change it if you have more than 200 tags
+
+
+  # ---------------------------------------------------------------
+  # Misc Theme Settings
+  # ---------------------------------------------------------------
+
+  codeblock:
+    # Code Highlight theme
+    # Available values: normal | night | night eighties | night blue | night bright
+    # See: https://github.com/chriskempson/tomorrow-theme
+    highlight_theme: normal
+    # Add copy button on codeblock
+    copy_button:
+      enable: true
+      # Show text copy result.
+      show_result: true
+      # Available values: default | flat | mac
+      style: mac
+
+  back2top:
+    enable: true
+    # Back to top in sidebar.
+    sidebar: false
+    # Scroll percent label in b2t button.
+    scrollpercent: true
+
+  # Reading progress bar
+  reading_progress:
+    enable: true
+    # Available values: top | bottom
+    position: top
+    color: "#37c6c0"
+    height: 3px
+
+  # Bookmark Support
+  bookmark:
+    enable: true
+    # Customize the color of the bookmark.
+    color: "#222"
+    # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
+    # If manual, only save it by clicking the bookmark-icon.
+    save: auto
+
+
+  # ---------------------------------------------------------------
+  # Font Settings
+  # See: https://theme-next.org/docs/theme-settings/#Fonts-Customization
+  # ---------------------------------------------------------------
+  # Find fonts on Google Fonts (https://www.google.com/fonts)
+  # All fonts set here will have the following styles:
+  #   light | light italic | normal | normal italic | bold | bold italic
+  # Be aware that setting too much fonts will cause site running slowly
+  # ---------------------------------------------------------------
+  # To avoid space between header and sidebar in scheme Pisces / Gemini, Web Safe fonts are recommended for `global` (and `title`):
+  # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
+  # ---------------------------------------------------------------
+
+  font:
+    # Use custom fonts families or not.
+    # Depended options: `external` and `family`.
+    enable: true
+
+    # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
+    host:
+
+    # Font options:
+    # `external: true` will load this font family from `host` above.
+    # `family: Times New Roman`. Without any quotes.
+    # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+    # Global font settings used for all elements inside <body>.
+    global:
+      external: true
+      family: Noto Sans KR
+      size:
+
+    # Font settings for site title (.site-title).
+    title:
+      external: true
+      family: Yeon Sung
+      size: 2
+
+    # Font settings for headlines (<h1> to <h6>).
+    headings:
+      external: true
+      family: Do Hyeon
+      size:
+
+    # Font settings for posts (.post-body).
+    posts:
+      external: true
+      family: Noto Sans KR
+
+    # Font settings for <code> and code blocks.
+    codes:
+      external: true
+      family: Nanum Gothic Coding
+
+
+  # ---------------------------------------------------------------
+  # Third Party Plugins & Services Settings
+  # See: https://theme-next.org/docs/third-party-services/
+  # You may need to install dependencies or set CDN URLs in `vendors`
+  # There are two different CDN providers by default:
+  #   - jsDelivr (cdn.jsdelivr.net), works everywhere even in China
+  #   - CDNJS (cdnjs.cloudflare.com), provided by cloudflare
+  # ---------------------------------------------------------------
+
+  # Easily enable fast Ajax navigation on your website.
+  # Dependencies: https://github.com/theme-next/theme-next-pjax
+  # For moreinformation: https://github.com/MoOx/pjax
+  pjax: true
+
+  # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+  # For more information: https://fancyapps.com/fancybox
+  fancybox: true
+
+  # A JavaScript library for zooming images like Medium.
+  # Do not enable both `fancybox` and `mediumzoom`.
+  # For more information: https://github.com/francoischalifour/medium-zoom
+  mediumzoom: false
+
+  # Vanilla JavaScript plugin for lazyloading images.
+  # For more information: https://github.com/ApoorvSaxena/lozad.js
+  lazyload: true
+
+
+  # ---------------------------------------------------------------
+  # Comments Settings
+  # See: https://theme-next.org/docs/third-party-services/comments
+  # ---------------------------------------------------------------
+
+  # Multiple Comment System Support
+  comments:
+    # Available values: tabs | buttons
+    style: tabs
+    # Choose a comment system to be displayed by default.
+    # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte
+    active:
+    # Setting `true` means remembering the comment system selected by the visitor.
+    storage: true
+    # Modify texts or order for any navs, here are some examples.
+    nav:
+      #disqus:
+      #  text: Load Disqus
+      #  order: -1
+      #facebook_comments_plugin:
+      #  text: <i class="fa fa-facebook-official" aria-hidden="true"></i> facebook
+      #gitalk:
+      #  order: -2
+
+  # Disqus
+  disqus:
+    enable: false
+    shortname:
+    count: true
+    lazyload: false
+    #post_meta_order: 0
+
+  # DisqusJS
+  # Alternative Disqus - Render comment component using Disqus API.
+  # Demo: https://suka.js.org/DisqusJS/
+  # For more information: https://github.com/SukkaW/DisqusJS
+  disqusjs:
+    enable: false
+    # API Endpoint of Disqus API (https://disqus.com/api/).
+    # Leave api empty if you are able to connect to Disqus API.
+    # Otherwise you need a reverse proxy for Disqus API.
+    # For example:
+    # api: https://disqus.skk.moe/disqus/
+    api:
+    apikey: # Register new application from https://disqus.com/api/applications/
+    shortname: # See: https://disqus.com/admin/settings/general/
+
+  # Gitalk
+  # Demo: https://gitalk.github.io
+  # For more information: https://github.com/gitalk/gitalk
+  gitalk:
+    enable: true
+    github_id: PW486 # GitHub repo owner
+    repo: pw486.github.io # Repository name to store issues
+    client_id: b1e696eca8e71f8d66ea # GitHub Application Client ID
+    client_secret: 5322bd3caae0555f18869575771ba4a05696244b # GitHub Application Client Secret
+    admin_user: PW486 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+    distraction_free_mode: true # Facebook-like distraction free mode
+    # Gitalk's display language depends on user's browser or system environment
+    # If you want everyone visiting your site to see a uniform language, you can set a force language value
+    # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+    language:
+
+
+  # ---------------------------------------------------------------
+  # Search Services
+  # See: https://theme-next.org/docs/third-party-services/search-services
+  # ---------------------------------------------------------------
+
+  # Local Search
+  # Dependencies: https://github.com/wzpan/hexo-generator-search
+  local_search:
+    enable: true
+    # If auto, trigger search by changing input.
+    # If manual, trigger search by pressing enter key or search button.
+    trigger: auto
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: false
+    # Preload the search data when the page loads.
+    preload: false
+
+
+  # ---------------------------------------------------------------
+  # Tags Settings
+  # See: https://theme-next.org/docs/tag-plugins/
+  # ---------------------------------------------------------------
+
+  # Note tag (bs-callout)
+  note:
+    # Note tag style values:
+    #  - simple    bs-callout old alert style. Default.
+    #  - modern    bs-callout new (v2-v3) alert style.
+    #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+    #  - disabled  disable all CSS styles import of note tag.
+    style: simple
+    icons: false
+    border_radius: 3
+    # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+    # Offset also applied to label tag variables. This option can work with disabled note tag.
+    light_bg_offset: 0
+
+  # Tabs tag
+  tabs:
+    transition:
+      tabs: false
+      labels: true
+    border_radius: 0
+
+  # PDF tag, requires two plugins: pdfObject and pdf.js
+  # pdfObject will try to load pdf files natively, if failed, pdf.js will be used.
+  # The following `cdn` setting is only for pdfObject, because cdn for pdf.js might be blocked by CORS policy.
+  # So, you must install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
+  # See: https://github.com/theme-next/theme-next-pdf
+  pdf:
+    enable: false
+    # Default height
+    height: 500px
+
+  # Mermaid tag
+  mermaid:
+    enable: false
+    # Available themes: default | dark | forest | neutral
+    theme: forest
+
+
+  # ---------------------------------------------------------------
+  # Animation Settings
+  # ---------------------------------------------------------------
+
+  # Use velocity to animate everything.
+  # For more information: http://velocityjs.org
+  motion:
+    enable: true
+    async: false
+    transition:
+      # Transition variants:
+      # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
+      # swoopIn | swoopOut | whirlIn | whirlOut | shrinkIn | shrinkOut | expandIn | expandOut
+      # bounceIn | bounceOut | bounceUpIn | bounceUpOut | bounceDownIn | bounceDownOut | bounceLeftIn | bounceLeftOut | bounceRightIn | bounceRightOut
+      # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
+      # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
+      # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
+      post_block: fadeIn
+      post_header: slideDownIn
+      post_body: slideDownIn
+      coll_header: slideLeftIn
+      # Only for Pisces | Gemini.
+      sidebar: slideUpIn
+
+  # Progress bar in the top during page loading.
+  # Dependencies: https://github.com/theme-next/theme-next-pace
+  # For more information: https://github.com/HubSpot/pace
+  pace:
+    enable: true
+    # Themes list:
+    # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+    # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
+    theme: minimal
+
+  # JavaScript 3D library.
+  # Dependencies: https://github.com/theme-next/theme-next-three
+  three:
+    enable: false
+    delay: false # Set true to further delay loading
+    three_waves: false
+    canvas_lines: false
+    canvas_sphere: false
+
+  # Canvas-nest
+  # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
+  # For more information: https://github.com/hustcc/canvas-nest.js
+  canvas_nest:
+    enable: false
+    onmobile: true # Display on mobile or not
+    color: "0,0,255" # RGB values, use `,` to separate
+    opacity: 0.5 # The opacity of line: 0~1
+    zIndex: -1 # z-index property of the background
+    count: 99 # The number of lines
+
+  # Canvas-ribbon
+  # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
+  # For more information: https://github.com/zproo/canvas-ribbon
+  canvas_ribbon:
+    enable: false
+    size: 300 # The width of the ribbon
+    alpha: 0.6 # The transparency of the ribbon
+    zIndex: -1 # The display level of the ribbon
