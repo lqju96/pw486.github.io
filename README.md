@@ -19,5 +19,5 @@
 ## Deploy to remote sites
 
 ```sh
-> hexo deploy
+> hexo deploy -g
 ```
