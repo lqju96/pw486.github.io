@@ -5,9 +5,11 @@
 ## Usage
 
 ```sh
+> git submodule init
+> git submodule update
 > npm i -g hexo-cli
 > npm install
-> hexo server
+> hexo serve
 ```
 
 ## Create a new post
@@ -19,5 +21,6 @@
 ## Deploy to remote sites
 
 ```sh
+> hexo clean
 > hexo deploy -g
 ```
