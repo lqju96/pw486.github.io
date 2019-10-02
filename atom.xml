@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DevBoard</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://pw486.github.io/"/>
+  <updated>2019-09-28T14:10:06.000Z</updated>
+  <id>https://pw486.github.io/</id>
+  
+  <author>
+    <name>PW486</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>개발 블로그 시작하기</title>
+    <link href="https://pw486.github.io/2019/09/24/%EA%B0%9C%EB%B0%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/"/>
+    <id>https://pw486.github.io/2019/09/24/개발-블로그-시작하기/</id>
+    <published>2019-09-24T18:27:51.000Z</published>
+    <updated>2019-09-28T14:10:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="블로그를-시작하자"><a href="#블로그를-시작하자" class="headerlink" title="블로그를 시작하자."></a>블로그를 시작하자.</h5><p>그동안 블로그를 안 해본 것은 아니었다. <strong>네이버</strong> 블로그부터 <strong>티스토리</strong> 블로그, <strong>Jekyll</strong>로 만든 개발 블로그까지 여러 번 블로그를 했었지만, 시간이 지나고 보니 예전에 썼던 글이 괜히 민망해지고 <strong>트위터</strong>, <strong>페이스북</strong>, <strong>인스타그램</strong> 등으로 넘어가면서 그만두었다. 특히 개발과 관련한 글은 어떤 것부터 어떻게 써야 할지 막막했다. <strong>Google</strong>에 조금만 검색을 해도 양질의 정보가 나오는데 굳이 내가 글을 쓸 이유가 있을까 싶었고 열심히 써도 사람들이 방문을 안 할 것 같았다. 그래서 그동안 <a href="https://github.com/PW486" target="_blank" rel="noopener">GitHub</a> 관리만 하고 <a href="https://www.youtube.com/channel/UCVcNzIBhkjL4NGsUgLy2Yxg/videos" target="_blank" rel="noopener">YouTube</a>에 만들었던 것에 대해 짧게나마 데모 영상을 올리는 정도만 했다.</p><a id="more"></a><p>그러나 왠지 이제 시작해도 될 것 같아서 만들기로 마음먹었다. <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">Hexo</a>로 며칠간 삽질 끝에 모든 설정을 마쳤다. 블로그 이름은 <strong>“DevBoard”</strong>. 개발할 때 키보드를 사용하는데 나의 취미 중 하나인 피아노를 칠 때도 키보드(건반)를 사용하는 것에서 지었다. <del>낮에도 키보드를 치고 밤에도 키보드를 치고</del></p><p>항상 예전 글을 보면 민망해진다. 초등학교 때 쓴 일기장을 봐도 그렇다. <a href="https://github.com/PW486" target="_blank" rel="noopener">GitHub</a>에 남아 있는 예전 <strong>Repository</strong>나 <strong>Commit</strong> 코드를 보면서도 부끄러울 때가 있다. 그래서 어차피 <a href="https://github.com/PW486" target="_blank" rel="noopener">GitHub</a>과 <a href="https://www.youtube.com/channel/UCVcNzIBhkjL4NGsUgLy2Yxg/videos" target="_blank" rel="noopener">YouTube</a>에 예전 코드나 개발 기록이 남아있기 때문에 블로그에 예전의 생각들이 남아있는 것도 괜찮다고 생각했다. 나이도 이제 20대 중반이 되었으니 나중에 봐도 크게 민망하지 않게 글을 잘 쓸 수 있을 것 같다. 게다가 <strong>Slack</strong>과 <strong>카카오톡</strong>을 제외하고 다른 소셜 네트워크는 모두 그만둬서, 이제 내가 글을 쓸 수 있는 곳은 이 블로그가 유일해졌다. 물론 <a href="https://github.com/PW486" target="_blank" rel="noopener">GitHub</a>도 README나 Wiki, <a href="https://gist.github.com/PW486" target="_blank" rel="noopener">Gist</a>가 있지만 <a href="https://github.com/PW486" target="_blank" rel="noopener">GitHub</a>에서 만큼은 최대한 영어를 쓰려고 한다.</p><p>처음에는 예전에 했던 일들을 바탕으로 글을 쓰고, 나중에는 개발을 하면서 배운 것들을 정리하는 글도 쓸 예정이다. 꼭 주제가 개발이 아니더라도 괜찮으니 다양한 일들을 기록해두자. 여행지에 가서 눈으로 담는 것도 좋지만 사진을 안 찍어두니 기억이 가물가물해진다. 벌써 몇 년 지난 여행은 가물가물해졌다.</p><p><strong>내가 쓰는 글이 누군가에게 도움이 될 수 있었으면 좋겠다.</strong> 이제까지 이것저것 많이 해봤으니 꽤 도움이 될만한 글이 나오지 않을까 싶다.</p><h5 id="임동건-화이팅"><a href="#임동건-화이팅" class="headerlink" title="임동건 화이팅!"></a>임동건 화이팅!</h5>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;블로그를-시작하자&quot;&gt;&lt;a href=&quot;#블로그를-시작하자&quot; class=&quot;headerlink&quot; title=&quot;블로그를 시작하자.&quot;&gt;&lt;/a&gt;블로그를 시작하자.&lt;/h5&gt;&lt;p&gt;그동안 블로그를 안 해본 것은 아니었다. &lt;strong&gt;네이버&lt;/strong&gt; 블로그부터 &lt;strong&gt;티스토리&lt;/strong&gt; 블로그, &lt;strong&gt;Jekyll&lt;/strong&gt;로 만든 개발 블로그까지 여러 번 블로그를 했었지만, 시간이 지나고 보니 예전에 썼던 글이 괜히 민망해지고 &lt;strong&gt;트위터&lt;/strong&gt;, &lt;strong&gt;페이스북&lt;/strong&gt;, &lt;strong&gt;인스타그램&lt;/strong&gt; 등으로 넘어가면서 그만두었다. 특히 개발과 관련한 글은 어떤 것부터 어떻게 써야 할지 막막했다. &lt;strong&gt;Google&lt;/strong&gt;에 조금만 검색을 해도 양질의 정보가 나오는데 굳이 내가 글을 쓸 이유가 있을까 싶었고 열심히 써도 사람들이 방문을 안 할 것 같았다. 그래서 그동안 &lt;a href=&quot;https://github.com/PW486&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt; 관리만 하고 &lt;a href=&quot;https://www.youtube.com/channel/UCVcNzIBhkjL4NGsUgLy2Yxg/videos&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;YouTube&lt;/a&gt;에 만들었던 것에 대해 짧게나마 데모 영상을 올리는 정도만 했다.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Notices" scheme="https://pw486.github.io/categories/Notices/"/>
+    
+    
+      <category term="Notice" scheme="https://pw486.github.io/tags/Notice/"/>
+    
+      <category term="Tech Blog" scheme="https://pw486.github.io/tags/Tech-Blog/"/>
+    
+  </entry>
+  
+</feed>
